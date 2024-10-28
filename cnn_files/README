@@ -1,0 +1,24 @@
+We will need to make a virtual environment
+Because pytorch needs a specific version of numpy
+
+Run the following lines in a bash terminal:
+
+$ py -m venv .venv
+$ source .venv/Scripts/activate
+$ pip install torch torchvision
+
+
+# Note, torch / torchvision automatically install correct versions of numpy and pillow
+
+# -------------------------------------------------------------------------------------- #
+
+
+Then we can run the code by opening a terminal and cd-ing into the cnn directory
+Then we can run the code with the following command
+
+$ py nameofcode.py
+
+
+If the above doesn't work, run it from the script directly:
+
+$ .venv/Scripts/python nameofcode.py
